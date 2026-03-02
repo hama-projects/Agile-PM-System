@@ -1,0 +1,5 @@
+risk_id,description,severity,mitigation
+1,Scope creep,High,Define strict backlog control
+2,Resource shortage,Medium,Add backup developers
+3,Integration delays,High,Parallel integration testing
+4,Budget overrun,Medium,Monthly budget review

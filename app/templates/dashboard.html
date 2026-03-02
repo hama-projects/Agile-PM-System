@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agile PM Dashboard</title>
+    <style>
+        body { font-family: Arial; margin: 40px; background:#f5f7fa; }
+        h1 { color:#333; }
+        .card {
+            background:white;
+            padding:20px;
+            margin:15px 0;
+            border-radius:10px;
+            box-shadow:0 2px 8px rgba(0,0,0,0.1);
+        }
+        a { text-decoration:none; color:#0b6efd; font-weight:bold; }
+    </style>
+</head>
+<body>
+
+<h1>Agile Project Management Dashboard</h1>
+
+<div class="card">
+    <h3>Project Overview</h3>
+    <p>Total Tasks: {{ total_tasks }}</p>
+    <p>Completed Tasks: {{ completed_tasks }}</p>
+    <p>Velocity: {{ velocity }}</p>
+</div>
+
+<div class="card">
+    <h3>Navigation</h3>
+    <p><a href="/kanban">Kanban Board</a></p>
+    <p><a href="/sprints">Sprint Management</a></p>
+    <p><a href="/risks">Risk Register</a></p>
+</div>
+
+</body>
+</html>

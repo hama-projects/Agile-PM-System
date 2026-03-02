@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sprint Management</title>
+    <style>
+        body { font-family: Arial; margin:30px; background:#f4f6f9; }
+        .card {
+            background:white;
+            padding:20px;
+            margin:15px 0;
+            border-radius:10px;
+            box-shadow:0 2px 6px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+<h1>Sprint Management</h1>
+<a href="/">← Dashboard</a>
+
+<div class="card">
+    <h3>Sprint Summary</h3>
+    <p>Total Tasks: {{ total_tasks }}</p>
+    <p>Completed: {{ completed }}</p>
+    <p>Remaining: {{ remaining }}</p>
+</div>
+
+<div class="card">
+    <h3>Current Sprint Tasks</h3>
+    <ul>
+        {% for task in tasks %}
+        <li>{{ task.title }} - {{ task.status }}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+</body>
+</html>
