@@ -1,6 +1,6 @@
-Agile PM System
+# Agile PM System
 
-1. Overview
+## Overview
 
 Agile PM System is a simplified project management platform built to explore Agile software development workflows and project tracking concepts.
 
@@ -8,10 +8,12 @@ The system provides core project management functionality such as sprint plannin
 
 This project was developed as a software engineering learning project focused on system design, analytics integration, and Agile methodologies.
 
-2. Features
+---
 
+## Features
 
-Project Management
+### Project Management
+
 * Sprint Management
 * Kanban Board
 * Task Tracking
@@ -20,7 +22,8 @@ Project Management
 * Release Planning
 * Project Dashboard
 
-Analytics
+### Analytics
+
 * Productivity Scoring
 * Velocity Forecasting
 * Burnup Chart
@@ -29,14 +32,18 @@ Analytics
 * Agile Maturity Scoring
 * Sprint Success Prediction
 
-Predictive Features
+### Predictive Features
+
 * Task Delay Prediction
 * Sprint Planning Assistance
 * Bottleneck Analysis
 * Risk Assessment Support
 
-3. Project Structure
+---
 
+## Project Structure
+
+```text
 Agile-PM-System/
 │
 ├── analytics/
@@ -46,8 +53,9 @@ Agile-PM-System/
 ├── config.py
 ├── requirements.txt
 ├── run.py
+```
 
-4. Modules
+### Modules
 
 | Module    | Purpose                               |
 | --------- | ------------------------------------- |
@@ -57,7 +65,9 @@ Agile-PM-System/
 | config.py | Configuration settings                |
 | run.py    | Application entry point               |
 
-5. Technology Stack
+---
+
+## Technology Stack
 
 * Python
 * Agile Project Management Concepts
@@ -65,9 +75,12 @@ Agile-PM-System/
 * Forecasting Techniques
 * Modular Application Design
 
-6. Core Capabilities
+---
+
+## Core Capabilities
 
 The system allows users to:
+
 * Organize and manage project tasks
 * Plan and monitor Agile sprints
 * Track project risks and budgets
@@ -75,17 +88,28 @@ The system allows users to:
 * Forecast sprint performance
 * Visualize project progress through dashboards and reports
 
-7. Installation
+---
+
+## Installation
 
 Install dependencies:
+
+```bash
 pip install -r requirements.txt
+```
 
 Run the application:
-python run.py
 
-8. Learning Objectives
+```bash
+python run.py
+```
+
+---
+
+## Learning Objectives
 
 This project was created to gain practical experience in:
+
 * Software Engineering
 * Agile Methodologies
 * Project Management Systems
@@ -93,7 +117,11 @@ This project was created to gain practical experience in:
 * System Design
 * Predictive Decision Support
 
-9. Author
+---
+
+## Author
+
 Moiz Ahmed
+
 BS Computer Science
 Virtual University of Pakistan
